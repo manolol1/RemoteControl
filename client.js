@@ -24,5 +24,5 @@ app.get('/ping', (req, res) => {
 });
 
 app.listen(clientPort, () => {
-    console.log(`ServerManager Client listening on port ${clientPort}`);
+    console.log(`RemoteControl Client is listening on port ${clientPort}...`);
 });
