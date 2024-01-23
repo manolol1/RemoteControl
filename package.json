@@ -1,0 +1,16 @@
+{
+  "name": "remotecontrol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "wake_on_lan": "^1.0.0"
+  }
+}
