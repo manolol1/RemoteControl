@@ -3,10 +3,12 @@ const app = express();
 
 const clientPort = 2052;
 
+const shutdownCommand = "sudo shutdown -P now"
+
 const { exec } = require("child_process");
 
 app.get('/shutdown', (req, res) => {
-    exec("sudo shutdown -P now", (error, stdout, stderr) => {
+    exec(shutdownCommand, (error, stdout, stderr) => {
 
         res.status(200);
         res.send('Shutdown command executed.');
