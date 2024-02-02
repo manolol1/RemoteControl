@@ -15,7 +15,10 @@ The server can send WakeOnLan packets and shutdown requests to the client.
 
 ## Client
 
-The server receives WakeOnLan packets and shutdown requests. Install it on the device you want to control.
+The client receives shutdown requests. Install it on the device you want to control. 
+
+To receive WOL packets (and react to them), you most likely need to configure some things in your BIOS/UEFI and OS settings.
+If you only need the WOL functionality (only be able to turn the computer on, not off), the client isn't required.
 
 **Note:** The client's shutdown command should work on most Linux Distributions. If you're running it on other operating systems, you might need to adjust it.
 
