@@ -22,9 +22,9 @@ The server can send WakeOnLan packets and shutdown requests to the client.
 
 **Setup:**
 
-1. Clone the repository: git clone https://github.com/manolol1/RemoteControl.git
+1. Clone the repository: `git clone https://github.com/manolol1/RemoteControl.git`
 2. Adjust the serverPort, clientAddress and wolMacAddress variables in server.js
-3. Run the server: sudo node server.js
+3. Run the server: `sudo node server.js`
 5. You can delete the client.js file here, if you want.
 
 ## Client
@@ -43,7 +43,7 @@ To change the command, just edit the shutdownCommand constant in client.js
 
 **Setup:**
 
-1. Clone the repository: git clone https://github.com/manolol1/RemoteControl.git
+1. Clone the repository: `git clone https://github.com/manolol1/RemoteControl.git`
 2. Adjust the clientPort variable in client.js
-3. Run the client: sudo node client.js
+3. Run the client: `sudo node client.js`
 5. You can delete the server.js file here, if you want.
