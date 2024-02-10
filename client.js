@@ -3,7 +3,7 @@ const app = express();
 
 const clientPort = 2052;
 
-const shutdownCommand = "sudo shutdown -P now"
+const shutdownCommand = "sudo shutdown -P now";
 
 const { exec } = require("child_process");
 
