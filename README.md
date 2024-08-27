@@ -4,7 +4,7 @@
 ## Features
 * Wake up the computer through WakeOnLan
 * Shut down and reboot
-* remotely execute shell scripts and view their output
+* Remotely execute shell scripts and display their output
 
 ## Modules
 
