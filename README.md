@@ -9,7 +9,7 @@
 ## Modules
 
 The Remote Control project consists of three modules:
-* **[Client](https://github.com/manolol1/remotecontrol_client)**: Always required, runs on the computer that should be controlled, provides websocket API for the server or Discord bot to issue commands or run scripts
+* **[Client](https://github.com/manolol1/remotecontrol_client)**: Always required, runs on the computer that should be controlled, provides a REST API for the Webinterface or Discord bot to issue commands or run scripts
 * **[Webinterface (Work in Progress)](https://github.com/manolol1/remotecontrol_webserver)**: Optional, not available yet, user-facing part that runs on a seperate machine and issues commands to the client or sends WakeOnLan packets
 * **[Discord Bot](https://github.com/manolol1/remotecontrol_discord)**: Optional, same as the webserver, but through Discord messages
 
