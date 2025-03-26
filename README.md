@@ -1,3 +1,5 @@
+# This repository was moved to https://forgejo.manolol.xyz/mario/RemoteControl
+
 # RemoteControl
 ### A comprehensive solution for remotely controlling a computer.
 
